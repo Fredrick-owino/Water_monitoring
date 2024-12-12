@@ -1,0 +1,41 @@
+.services-container {
+  padding: 2rem;
+  text-align: center;
+}
+
+.services-container h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #006b3c; /* Green to match the theme */
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.service-item {
+  background-color: #f8f8f8;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.service-item h3 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.service-item p {
+  margin-top: 0.5rem;
+  color: #555;
+  line-height: 1.6;
+}

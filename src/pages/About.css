@@ -1,0 +1,14 @@
+.about-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.image-container {
+  margin-top: 1rem;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}

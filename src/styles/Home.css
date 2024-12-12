@@ -1,0 +1,44 @@
+.home {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.hero {
+  background-color: #007BFF;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.overview {
+  padding: 20px;
+  text-align: center;
+}
+
+.overview h2 {
+  color: #007BFF;
+}
+
+.overview button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.overview button:hover {
+  background-color: #0056b3;
+}
+
